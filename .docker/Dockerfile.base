@@ -1,5 +1,5 @@
 # Sets the base image for subsequent instructions
-ARG ARG_BUILD_FROM="nvcr.io/nvidia/pytorch:23.04-py3"
+ARG ARG_BUILD_FROM="pytorch/pytorch:2.0.0-cuda11.7-cudnn8-runtime"
 FROM $ARG_BUILD_FROM
 
 # Sets labels for the image
@@ -81,11 +81,11 @@ RUN sudo rm -rf $WORKSPACE_ROOT && sudo mkdir -p $WORKSPACE_ROOT
 RUN sudo chown -R $USERNAME:$USERNAME $WORKSPACE_ROOT
 RUN sh -c "$(wget -qO- https://dotfiles.entelecheia.ai/install)"
 
-
 # Sets the working directory to workspace root
 WORKDIR $WORKSPACE_ROOT
 # Copies scripts from host into the image
 COPY ./.docker/scripts/ ./scripts/
+
 # Sets the time zone within the container
 ENV TZ="Asia/Seoul"
 
