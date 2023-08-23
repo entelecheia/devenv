@@ -81,16 +81,11 @@ RUN sudo rm -rf $WORKSPACE_ROOT && sudo mkdir -p $WORKSPACE_ROOT
 RUN sudo chown -R $USERNAME:$USERNAME $WORKSPACE_ROOT
 RUN sh -c "$(wget -qO- https://dotfiles.entelecheia.ai/install)"
 
-# Installs Python packages required for the build
-RUN sudo pip3 install -U pip setuptools
-
 
 # Sets the working directory to workspace root
 WORKDIR $WORKSPACE_ROOT
 # Copies scripts from host into the image
 COPY ./.docker/scripts/ ./scripts/
-# Installs Python dependencies listed in requirements.txt
-RUN pip install -r ./scripts/requirements.txt
 # Sets the time zone within the container
 ENV TZ="Asia/Seoul"
 
