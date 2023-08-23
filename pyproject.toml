@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "devenv"
-version = "0.1.0"
+version = "0.2.0"
 description = "A development enviroment container that allows you to use a container as a full-featured development environment."
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
