@@ -93,7 +93,6 @@ This project is released under the [MIT License][license-url].
 [release-date-image]: https://img.shields.io/github/release-date/entelecheia/devenv-container
 [release-url]: https://github.com/entelecheia/devenv-container/releases
 [repo-url]: https://github.com/entelecheia/devenv-container
-[docs-url]: 
 [changelog]: https://github.com/entelecheia/devenv-container/blob//CHANGELOG.md
 [contributing guidelines]: https://github.com/entelecheia/devenv-container/blob//CONTRIBUTING.md
 <!-- Links: -->
