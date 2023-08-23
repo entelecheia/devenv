@@ -1,4 +1,4 @@
-# Development Evironment Container
+# Development Environment Container
 
 [![version-image]][release-url]
 [![release-date-image]][release-url]
