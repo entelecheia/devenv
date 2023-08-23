@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; do NOT edit manually
-_commit: v0.8.0
+_commit: v0.9.0
 _src_path: gh:entelecheia/hyperfast-docker-template
 app_clone_dirname: ''
 app_install_root: /workspace/projects
@@ -25,7 +25,7 @@ docker_timezone: Asia/Seoul
 docker_username: entelecheia
 email: entelecheia@hotmail.com
 enable_nvidia_gpu: true
-friendly_name: Development Evironment Container
+friendly_name: Development Environment Container
 github_repo_name: devenv-container
 github_username: entelecheia
 install_dotfiles: true
