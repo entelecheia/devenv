@@ -48,7 +48,7 @@ The Development Enviroment Container seeks to find ways to develop, build, test,
 
 ## Usage
 
-After starting the container, you can access the application at `localhost:<APP_HOST_WEB_SVC_PORT>`. By default, the port is set to `18888`.
+After starting the container, you can access the application at `localhost:<APP_HOST_WEB_SVC_PORT>`. By default, the port is set to `18080`.
 
 You can also SSH into the container using the SSH port specified in `APP_HOST_SSH_PORT`. By default, the port is set to `2222`.
 
@@ -88,11 +88,11 @@ Contributions are welcome! Please see the [contributing guidelines] for more inf
 This project is released under the [MIT License][license-url].
 <!-- Links: -->
 [license-image]: https://img.shields.io/github/license/entelecheia/devenv-container
-[license-url]: https://github.com/entelecheia/devenv-container/blob//LICENSE
+[license-url]: https://github.com/entelecheia/devenv-container/blob/main/LICENSE
 [version-image]: https://img.shields.io/github/v/release/entelecheia/devenv-container?sort=semver
 [release-date-image]: https://img.shields.io/github/release-date/entelecheia/devenv-container
 [release-url]: https://github.com/entelecheia/devenv-container/releases
 [repo-url]: https://github.com/entelecheia/devenv-container
-[changelog]: https://github.com/entelecheia/devenv-container/blob//CHANGELOG.md
-[contributing guidelines]: https://github.com/entelecheia/devenv-container/blob//CONTRIBUTING.md
+[changelog]: https://github.com/entelecheia/devenv-container/blob/main/CHANGELOG.md
+[contributing guidelines]: https://github.com/entelecheia/devenv-container/blob/main/CONTRIBUTING.md
 <!-- Links: -->
