@@ -3,3 +3,4 @@
 CHANGELOG.md
 pyproject.toml
 LICENSE
+.docker/docker.version
